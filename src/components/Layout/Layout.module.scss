@@ -1,0 +1,18 @@
+@import '@styles/_theme.scss';
+
+.page-wrapper {
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @media (min-width: 845.9px) {
+    max-width: 769px;
+  }
+}
+
+.content-container {
+  width: 100%;
+}

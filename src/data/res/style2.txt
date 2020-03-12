@@ -1,0 +1,40 @@
+div[class^="MyResume-module--resume-"]{
+  height:550px;
+}
+
+/* Is it Cool? Awesome?
+
+Enjoy more 3D effect！
+
+*/
+body {
+  -webkit-perspective: 1000px;
+  perspective:1000px;
+}
+
+/*  Eh？nothing gonna change? No worries!~~ */
+div[class^="MyResume-module--resume-"] {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+/*  ~Is it fantastic??? */
+div[class^="MyResume-module--resume-"] {
+  box-shadow: 0px 0px 0px #888888;
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+  transform:rotateY(10deg);
+  -webkit-transform-origin:rotateY(10deg);
+}
+
+div[class^="MyResume-module--workArea-"] {
+  box-shadow: 0px 0px 0px #888888;
+  -webkit-transform: translateX(150%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  transform:translateX(150%) rotateY(-10deg);
+  transform-origin: right;
+  max-height: 94.5%;
+}
+
+/* 
+Time's up!~~~ See you!~~~~
+*/

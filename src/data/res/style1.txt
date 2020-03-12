@@ -1,0 +1,101 @@
+/* 
+* Hello, I'm Cyrus. 
+*
+* Do you feel a little boring today? Let me give you something really awesome!
+* 
+* Firstly, Let me show you something interesting.
+*/
+
+*{
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+/* What? It's not enough? Let me change the background...*/
+
+body {
+  /* 
+  3，
+  2，
+  1 */
+  background: rgb(0,43,54); 
+}
+.token.comment{ 
+    color: white 
+}
+
+
+/* Haha... Is it awesome?
+
+* Do you feel good? OK! Let me change the font!!! 
+
+*/
+div[class^="MyResume-module--workArea-"]{
+  color: rgb(222,222,222); 
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 40%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+
+
+/* 
+* ！
+* yoyo，How is it now?～ 
+* Let's make something advanced! Highlight the code!!!
+
+*/
+
+
+.token.comment{ color: #857F6B; font-style: italic; }
+.token.selector{ color: #E69F0F; }
+.token.property{ color: #64D5EA; }
+.token.punctuation{ color: #64D5EA; }
+.token.function{ color: #BE84F2; }
+
+
+/*
+
+* Haha! Do you like it?
+* En...I have to switch to another task! Drop this one!~~
+* 3，
+* 2，
+* 1
+*/
+
+div[class^="MyResume-module--workArea-"] {
+  -webkit-transform: translateX(150%);
+  transform:translateX(150%);
+}
+
+/*
+* And then, Let's write a CV, OK?
+* Firstly, We need a <input>!~~~~
+*/
+
+div[class^="MyResume-module--resume-"]{
+  position:absolute;
+  top:0;
+  left: 0;
+  background: white; 
+  color: #222;
+  width: 50%; 
+  height:500px; 
+  border: 1px solid #aaa;
+  overflow: auto;
+  color: rgb(222,222,222); 
+  background: rgb(48, 48, 48);
+  font-size: 14px;
+}
+
+/*
+* OK! Let's do it now!~~
+*/

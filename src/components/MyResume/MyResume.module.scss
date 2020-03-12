@@ -1,0 +1,32 @@
+@import '@styles/_theme.scss';
+@import '@styles/_breakpoints.scss';
+
+.main {
+  position: relative;
+}
+
+.resume {
+  font-family: monospace;
+  white-space: pre-wrap;
+  outline: 0;
+  width: 0;
+  height: 0;
+
+  ol,
+  ul,
+  li,
+  p {
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+}
+.workArea {
+  font-family: monospace;
+  white-space: pre-wrap;
+  outline: 0;
+  overflow: auto;
+  height: 550px;
+  width: 100%;
+  left: 0;
+  color: $colorPrimary;
+}

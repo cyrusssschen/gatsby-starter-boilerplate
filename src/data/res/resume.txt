@@ -1,0 +1,15 @@
+Cyrus Chen
+- Front End Developer
+
+Tech Stack
+- HTML/CSS/JavaScript/TypeScript
+- React/Redux/Backbone
+- PHP/Laravel/Wordpress/MySQL
+- NodeJs/Express
+
+Working Experience(in Sydney Australia)
+- Stan Co., Ltd: HTML/CSS/JavaScript/TypeScript/Preact
+- Cluey Learning Co., Ltd: HTML/CSS/JavaScript/React/Redux/Wordpress
+- Fairfax Media: HTML/CSS/JavaScript/React/Redux/Wordpress
+- Bookmarc Co., Ltd: HTML/CSS/JavaScript/Backbone/React/Redux/PHP/Laravel 5/MySQL
+
